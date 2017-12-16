@@ -4,7 +4,8 @@ import './SearchBar.css';
 const sortByOptions = {
   'Best Match': 'best_match',
   'Highest Rated': 'rating',
-  'Most Reviewed': 'review_count'
+  'Most Reviewed': 'review_count',
+
 };
 
 class SearchBar extends React.Component {
@@ -28,7 +29,7 @@ class SearchBar extends React.Component {
           <input placeholder="Where?" />
         </div>
         <div class="SearchBar-submit">
-          <a>"Let's Go"</a>
+          <a>Let's Go</a>
         </div>
       </div>
     );
